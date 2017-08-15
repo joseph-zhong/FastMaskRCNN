@@ -5,6 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
+libs/datasets/pycocotools/_mask.c
 
 # Distribution / packaging
 .Python
@@ -82,6 +83,12 @@ celerybeat-schedule
 # virtualenv
 venv/
 ENV/
+bin/
+include/
+local/
+pip-selfcheck.json
+share/
+
 
 # Spyder project settings
 .spyderproject
@@ -89,6 +96,7 @@ ENV/
 # Rope project settings
 .ropeproject
 
+# Data
 data/coco   
 data/pretrained_models
 tags
